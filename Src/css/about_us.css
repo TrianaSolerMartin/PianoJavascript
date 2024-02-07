@@ -1,0 +1,86 @@
+body {
+    justify-content: center;
+}
+
+.about-us {
+    display: flex;
+    flex-direction: row;
+    color: #3333cb;
+    width: 1200px;
+    flex-shrink: 0;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 10%;
+    justify-content: center;
+}
+
+.title-about-us {
+    font-size: 40px;
+    width: 400px;
+    padding-bottom: 10%;
+    font-family: 'Abril Fatface', serif;
+}
+
+.text-about-us {
+   width: 650px;
+   padding-top: 3%;
+   font-size: 19px;
+   font-family: 'Open Sans', sans-serif;
+}
+
+.parent {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0.5%;
+    justify-content: center;
+}
+
+img {
+    width: 320px;
+    height: 320px;
+}
+
+.description-maria, .description-ana, .description-sofia, .description-elena {
+    width: 320px;
+    height: 320px;
+    box-sizing: border-box;
+    text-align: justify;
+    padding: 3.5%;
+    color: #f5f5f5;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.description-maria, .description-elena {
+    background-color: #ff96d3;
+}
+
+.description-ana, .description-sofia {
+    background-color: #00DDB5;
+}
+
+/* Media query para pantallas más pequeñas */
+@media screen and (max-width: 800px) {
+
+    .about-us {
+        display: flex;
+        flex-direction: column;
+        padding: 1%;
+    }
+
+    .title-about-us {
+        font-size: 30px;
+        text-align: center;
+        padding-bottom: 1%;
+    }
+
+    .text-about-us {
+        width: 300px;
+        text-align: center;
+        justify-content: center;
+        padding-top: 1%;
+        padding-left: 3.5%;
+        padding-bottom: 5%;
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+     }
+}
